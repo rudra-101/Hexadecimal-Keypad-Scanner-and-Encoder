@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Hexadecimal_Keypad_Scanner.srcs/sources_1/new/Hex_Keypad_Encoder.v" \
+"../../../../Hexadecimal_Keypad_Scanner.srcs/sources_1/new/Row_Signal.v" \
+"../../../../Hexadecimal_Keypad_Scanner.srcs/sources_1/new/Synchronizer.v" \
+"../../../../Hexadecimal_Keypad_Scanner.srcs/sim_1/new/test_Hex_Keypad.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

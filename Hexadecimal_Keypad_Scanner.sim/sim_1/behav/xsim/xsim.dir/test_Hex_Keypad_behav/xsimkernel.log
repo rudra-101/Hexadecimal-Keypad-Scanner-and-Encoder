@@ -1,0 +1,4 @@
+Running: xsim.dir/test_Hex_Keypad_behav/xsimk.exe -simmode gui -wdb test_Hex_Keypad_behav.wdb -simrunnum 0 -socket 63327
+Design successfully loaded
+Design Loading Memory Usage: 7140 KB (Peak: 7140 KB)
+Design Loading CPU Usage: 0 ms
